@@ -17,6 +17,8 @@ public class Worker : BackgroundService
             {
                 _logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);
                 // nasluchiwanie zmian statusow zamowien w systemie zewnetrznym i mozliwosc aktualizacji po naszej stronie
+                // w worker nie rozbijał bym na projekty, posłużym bym się "monolitem" ewentualnie stworzył klase repozytorium i reszte tutaj ewentualnie jakiś helper, starałbym się tworzć tutaj jak najmniej plików
+                // uzylbym paczki System.Reactive.Linq
             }
             await Task.Delay(1000, stoppingToken);
         }
