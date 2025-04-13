@@ -65,5 +65,9 @@ app.MapDelete("/orders/{code}", (string code) => Orders.DeleteOrders(code))
 .WithName("Deleteorders")
 .WithOpenApi();
 
+app.MapPatch("/orders", (UpdateOrderStatusDTO request) => Orders.PatchStatusOrders(request))
+.WithName("PatchStatusOrders")
+.WithOpenApi();
+
 app.Run();
 

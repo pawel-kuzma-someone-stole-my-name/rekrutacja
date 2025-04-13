@@ -46,4 +46,9 @@ public static class Orders
     {
         return Results.Ok($"DeleteOrders code: {code}");
     }
+
+    public static IResult PatchStatusOrders(UpdateOrderStatusDTO status)
+    {
+        return Results.Ok($"PatchStatusOrders status: {status}");
+    }
 }

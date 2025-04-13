@@ -32,3 +32,5 @@ C:\pawel\repositories\rekrutacja\web\obj\Debug\net8.0\refint\web.dll
 C:\pawel\repositories\rekrutacja\web\obj\Debug\net8.0\web.pdb
 C:\pawel\repositories\rekrutacja\web\obj\Debug\net8.0\web.genruntimeconfig.cache
 C:\pawel\repositories\rekrutacja\web\obj\Debug\net8.0\ref\web.dll
+C:\pawel\repositories\rekrutacja\web\bin\Debug\net8.0\core.dll
+C:\pawel\repositories\rekrutacja\web\bin\Debug\net8.0\core.pdb
