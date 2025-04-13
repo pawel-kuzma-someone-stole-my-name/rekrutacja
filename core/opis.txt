@@ -1,0 +1,1 @@
+- wydac jako nuget, rzeczy wspolne dla web i worker
